@@ -1,4 +1,4 @@
-# WHU-SGG-RS-Pro-Group
+# SAR despeckling codes for SAR-DCNN, SAR-PNP and SAR-RDCP
 Wuhan university ,  School of Geodesy and Geomatics, RS Pro group
 
 SAR Image Despeckling Employing a Recursive Deep CNN Prior
