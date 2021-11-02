@@ -1,0 +1,9 @@
+function GG_v=g2_update(m,n)
+G_1=speye((m-1));
+G_2=sparse((m-1),1);
+G_3=sparse(1,(m-2));
+G_uint1=[-G_1,G_2]+[G_2,G_1];
+G_uint2=[1,G_3,-1];
+G_4=speye(n);
+G_5=[G_uint1;G_uint2];
+GG_v=kron(G_4,G_5);
